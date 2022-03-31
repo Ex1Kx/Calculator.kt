@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="campoNota5" type="id" />
+    <item name="campoNota4" type="id" />
+    <item name="campoNota3" type="id" />
+    <item name="campoNota2" type="id" />
+    <item name="campoNota1" type="id" />
+    <item name="campoMateria5" type="id" />
+    <item name="campoMateria4" type="id" />
+    <item name="campoMateria3" type="id" />
+    <item name="campoMateria2" type="id" />
+    <item name="campoMateria1" type="id" />
+    <item name="campoDireccion" type="id" />
+    <item name="campoTelefono" type="id" />
+    <item name="campoEdad" type="id" />
+    <item name="campoNombre" type="id" />
+    <item name="campoDocumento" type="id" />
+</resources>
