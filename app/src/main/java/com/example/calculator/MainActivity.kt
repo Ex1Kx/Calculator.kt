@@ -3,7 +3,10 @@ package com.example.calculator
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.KeyEvent
 import android.widget.Button
+import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
 
 class MainActivity : AppCompatActivity() {
     var operaciones: Operaciones?=null
@@ -28,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun iniciarComponentes() {
 
-        val botonRegistro: Button =findViewById(R.id.btnCalular)
+        val botonRegistro: Button =findViewById(R.id.btnCalcular)
         val botonEstadisticas:Button=findViewById(R.id.btnEstadisticas)
         val botonAyuda:Button=findViewById(R.id.btnAyuda)
 
@@ -41,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
         when (boton) {
             1 -> {
-                var miIntent: Intent = Intent(this, RegistroActivity::class.java)
+                var miIntent: Intent = Intent(this, Registro::class.java)
                 var miBundle: Bundle = Bundle()
                 miBundle.putSerializable("operaciones", operaciones)
                 miBundle.putString("Nombre", "Pepe")
@@ -50,8 +53,8 @@ class MainActivity : AppCompatActivity() {
                 // startActivity(miIntent)
                 response.launch(miIntent)
             }
-            2 -> startActivity(Intent(this, AyudaActivity::class.java))
-            3 -> startActivity(Intent(this, EstadisticasActivity::class.java))
+            2 -> startActivity(Intent(this, Ayuda::class.java))
+            3 -> startActivity(Intent(this, Estadisticas::class.java))
         }
     }
 }

@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Calculator">
         <activity
+            android:name=".Estadisticas"
+            android:exported="false" />
+        <activity
+            android:name=".Ayuda"
+            android:exported="false" />
+        <activity
             android:name=".Result"
             android:exported="false" />
         <activity
