@@ -15,4 +15,8 @@
     <item name="campoEdad" type="id" />
     <item name="campoNombre" type="id" />
     <item name="campoDocumento" type="id" />
+    <item name="idNombre" type="id" />
+    <item name="idPromedio" type="id" />
+    <item name="idResultado" type="id" />
+    <item name="idImagen" type="id" />
 </resources>

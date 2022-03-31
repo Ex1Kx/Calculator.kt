@@ -3,15 +3,16 @@ package com.example.calculator
 import java.io.Serializable
 
 class Operaciones: Serializable {
-    var listaEstudiantes: ArrayList<Estudiante> =arrayListOf<Estudiante>()
+    companion object{
+    var listaEstudiantesStatic: ArrayList<Estudiante> =arrayListOf<Estudiante>()
 
     fun registrarEstudiante(estudiante: Estudiante){
 
-        listaEstudiantes.add(estudiante)
+        listaEstudiantesStatic.add(estudiante)
     }
 
     fun imprimirListaEstudiantes(){
-        for(est in listaEstudiantes){
+        for(est in listaEstudiantesStatic){
             println(est)
         }
     }
@@ -21,5 +22,6 @@ class Operaciones: Serializable {
         var prom=(est.nota1+est.nota2+est.nota3+est.nota4+est.nota4+est.nota5)/5
 
         return prom
+        }
     }
 }

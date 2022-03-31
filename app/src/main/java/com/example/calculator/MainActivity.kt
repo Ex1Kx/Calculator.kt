@@ -25,7 +25,11 @@ class MainActivity : AppCompatActivity() {
             println("Valor respuesta=$resp y la resps2=$resp2")
             //capturamos el objeto nuevo y lo asignamos a operaciones
             operaciones= valor?.data?.extras?.get("objetoOperaciones") as Operaciones?
-            operaciones?.imprimirListaEstudiantes()
+            println("INFORMACION LISTA ESTATICA")
+            println("Tamaño Lista Estatica: ${Operaciones.listaEstudiantesStatic.size}")
+            for(est in Operaciones.listaEstudiantesStatic){
+                println(est)
+            }
         }
     }
 
@@ -54,7 +58,7 @@ class MainActivity : AppCompatActivity() {
                 response.launch(miIntent)
             }
             2 -> startActivity(Intent(this, Ayuda::class.java))
-            3 -> startActivity(Intent(this, Estadisticas::class.java))
+            3 -> startActivity(Intent(this, ListaEstudiantesSimpleActivity::class.java))
         }
     }
 }

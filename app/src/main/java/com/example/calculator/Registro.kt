@@ -96,11 +96,8 @@ class Registro : AppCompatActivity() {
         est.nota5 = campoNota5?.text.toString().toDouble()
 
         //Se asigna el promedio delegando el calculo al metodo de la clase operaciones
-        est.promedio = operaciones!!.calcularPromedio(est)
 
-        operaciones?.registrarEstudiante(est)
-
-        operaciones?.imprimirListaEstudiantes()
+        Operaciones.listaEstudiantesStatic.add(est)
     }
 
     private fun devolverResultados() {
