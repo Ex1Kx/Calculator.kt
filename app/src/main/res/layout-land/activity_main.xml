@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/app_name"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:id="@+id/txttitle1"
+            android:layout_width="1039dp"
+            android:layout_height="650dp"
+            android:padding="4pt"
+            android:text="@string/txttitle1"
+            android:textAlignment="center"
+            android:textSize="56sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/txtDescription"
+            android:layout_width="623dp"
+            android:layout_height="155dp"
+            android:text="@string/txtDescription"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/txttitle1"
+            app:layout_constraintHorizontal_bias="0.522"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txttitle1"
+            app:layout_constraintVertical_bias="0.246" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="387dp"
+            android:layout_height="49dp"
+            android:text="Registrar"
+            app:layout_constraintBottom_toBottomOf="@+id/txttitle1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.514"
+            app:layout_constraintStart_toStartOf="@+id/txttitle1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.571" />
+
+        <Button
+            android:id="@+id/btnStadistics"
+            android:layout_width="387dp"
+            android:layout_height="49dp"
+            android:text="Estadisticas"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/txttitle1"
+            app:layout_constraintHorizontal_bias="0.514"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txttitle1"
+            app:layout_constraintVertical_bias="0.653" />
+
+        <Button
+            android:id="@+id/btnHelp"
+            android:layout_width="387dp"
+            android:layout_height="49dp"
+            android:text="Ayuda"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.528"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.744" />
+
+        <TextView
+            android:id="@+id/txtdevelop1"
+            android:layout_width="236dp"
+            android:layout_height="41dp"
+            android:text="@string/txtdevelop1"
+            app:layout_constraintBottom_toBottomOf="@+id/txttitle1"
+            app:layout_constraintEnd_toEndOf="@+id/txttitle1"
+            app:layout_constraintHorizontal_bias="0.511"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.912" />
+
+        <TextView
+            android:id="@+id/txtdevelop2"
+            android:layout_width="131dp"
+            android:layout_height="39dp"
+            android:text="@string/txtdevelop2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/txttitle1"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.989" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
+

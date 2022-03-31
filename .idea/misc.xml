@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Calculator/Calculator.kt/app/src/main/res/layout-land/activity_main.xml" value="0.1" />
+        <entry key="..\:/Calculator/Calculator.kt/app/src/main/res/layout-land/activity_registro.xml" value="0.22" />
+        <entry key="..\:/Calculator/Calculator.kt/app/src/main/res/layout/activity_help.xml" value="0.14460562103354488" />
+        <entry key="..\:/Calculator/Calculator.kt/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Calculator/Calculator.kt/app/src/main/res/layout/activity_registro.xml" value="0.1" />
         <entry key="..\:/Users/ekigo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_main.xml" value="0.125" />
         <entry key="..\:/Users/ekigo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_registro.xml" value="0.1" />
       </map>
