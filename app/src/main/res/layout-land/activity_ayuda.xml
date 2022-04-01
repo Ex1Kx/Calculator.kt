@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -15,17 +14,36 @@
         android:padding="15dp">
 
         <TextView
-            android:id="@+id/textView18"
-            android:layout_width="375dp"
-            android:layout_height="933dp"
-            android:text="By Julian Lozada &amp; Angie Lugo"
+            android:id="@+id/welcome2"
+            android:layout_width="690dp"
+            android:layout_height="946dp"
+            android:padding="20dp"
+            android:text="¿Como Usar Calculadora De Notas?"
+            android:textAlignment="center"
+            android:textDirection="firstStrongRtl"
+            android:textIsSelectable="true"
+            android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.609"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.533" />
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView18"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By Julian Lozada"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.544"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.959" />
 
         <TextView
             android:id="@+id/textView17"
@@ -34,11 +52,11 @@
             android:text="App Developed"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.556"
+            app:layout_constraintHorizontal_bias="0.505"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.962" />
+            app:layout_constraintVertical_bias="0.875" />
 
         <Button
             android:id="@+id/dataButton3"
@@ -46,11 +64,11 @@
             android:layout_height="wrap_content"
             android:text="Home"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.544"
+            app:layout_constraintHorizontal_bias="0.499"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.916" />
+            app:layout_constraintVertical_bias="0.87" />
 
         <TextView
             android:id="@+id/welcome14"
@@ -58,11 +76,11 @@
             android:layout_height="wrap_content"
             android:text="con los datos ya registrados"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.54"
+            app:layout_constraintHorizontal_bias="0.499"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.838" />
+            app:layout_constraintVertical_bias="0.73" />
 
         <TextView
             android:id="@+id/welcome13"
@@ -70,23 +88,24 @@
             android:layout_height="wrap_content"
             android:text="al hacerlo la seccion de estadisticas se actualizara "
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.565"
+            app:layout_constraintHorizontal_bias="0.473"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.796" />
+            app:layout_constraintVertical_bias="0.694" />
 
         <TextView
             android:id="@+id/welcome12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="274dp"
+            android:layout_height="59dp"
             android:text="se debio de haber registrado un estudiante con anterioridad"
+            android:textAlignment="center"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.605"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.748" />
+            app:layout_constraintVertical_bias="0.744" />
 
         <TextView
             android:id="@+id/welcome11"
@@ -94,11 +113,11 @@
             android:layout_height="wrap_content"
             android:text="Para usar la seccion de 'Estadisticas' primero"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.527"
+            app:layout_constraintHorizontal_bias="0.523"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.705" />
+            app:layout_constraintVertical_bias="0.656" />
 
         <TextView
             android:id="@+id/welcome10"
@@ -107,11 +126,10 @@
             android:text="¿Como Usar Las Estadisticas?"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.513"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.657" />
+            app:layout_constraintVertical_bias="0.629" />
 
         <TextView
             android:id="@+id/welcome9"
@@ -119,11 +137,11 @@
             android:layout_height="wrap_content"
             android:text="los resultados correspondientes"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintHorizontal_bias="0.544"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.616" />
+            app:layout_constraintVertical_bias="0.527" />
 
         <TextView
             android:id="@+id/welcome8"
@@ -131,10 +149,11 @@
             android:layout_height="wrap_content"
             android:text="ya presionado te enviara a otra pantalla la cual te mostarara"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.526"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.574" />
+            app:layout_constraintVertical_bias="0.477" />
 
         <TextView
             android:id="@+id/welcome7"
@@ -142,11 +161,11 @@
             android:layout_height="wrap_content"
             android:text="Una vez ingresados al presionar el boton calcular"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.511"
+            app:layout_constraintHorizontal_bias="0.52"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.529" />
+            app:layout_constraintVertical_bias="0.422" />
 
         <EditText
             android:id="@+id/fullname2"
@@ -156,10 +175,11 @@
             android:hint="Nombre Completo"
             android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.539"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.444" />
+            app:layout_constraintVertical_bias="0.358" />
 
         <TextView
             android:id="@+id/welcome6"
@@ -167,10 +187,11 @@
             android:layout_height="wrap_content"
             android:text="En la cual tendras que ingresar los datos correspondientes"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.517"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.376" />
+            app:layout_constraintVertical_bias="0.308" />
 
         <TextView
             android:id="@+id/welcome5"
@@ -178,11 +199,10 @@
             android:layout_height="wrap_content"
             android:text="Una vez presionado te enviara a  la pantalla de registro"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.335" />
+            app:layout_constraintVertical_bias="0.26" />
 
         <Button
             android:id="@+id/dataButton2"
@@ -190,11 +210,11 @@
             android:layout_height="wrap_content"
             android:text="Ingresa Los Datos Y Calcula"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintHorizontal_bias="0.533"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.256" />
+            app:layout_constraintVertical_bias="0.17" />
 
         <TextView
             android:id="@+id/welcome4"
@@ -202,11 +222,11 @@
             android:layout_height="wrap_content"
             android:text="presionar el boton llamado 'Ingresa Notas Y Calcula'"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.193" />
+            app:layout_constraintVertical_bias="0.123" />
 
         <TextView
             android:id="@+id/welcome3"
@@ -217,36 +237,8 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.167" />
+            app:layout_constraintVertical_bias="0.091" />
 
-        <TextView
-            android:id="@+id/welcome2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="¿Como Usar Calculadora De Notas?"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.106" />
-
-        <TextView
-            android:id="@+id/welcomePh6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-black"
-            android:text="Informacion"
-            android:textAlignment="center"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            android:typeface="normal"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.023" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

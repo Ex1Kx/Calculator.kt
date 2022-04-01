@@ -38,10 +38,12 @@ class MainActivity : AppCompatActivity() {
         val botonRegistro: Button =findViewById(R.id.btnCalcular)
         val botonEstadisticas:Button=findViewById(R.id.btnEstadisticas)
         val botonAyuda:Button=findViewById(R.id.btnAyuda)
+        val botonStats:Button=findViewById(R.id.btnStat)
 
         botonRegistro.setOnClickListener { onClick(1) }
         botonAyuda.setOnClickListener { onClick(2) }
         botonEstadisticas.setOnClickListener { onClick(3) }
+        botonStats.setOnClickListener { onClick(4) }
     }
 
     private fun onClick(boton: Int) {
@@ -59,6 +61,7 @@ class MainActivity : AppCompatActivity() {
             }
             2 -> startActivity(Intent(this, Ayuda::class.java))
             3 -> startActivity(Intent(this, ListaEstudiantesSimpleActivity::class.java))
+            4 -> startActivity(Intent(this, Estadisticas::class.java))
         }
     }
 }

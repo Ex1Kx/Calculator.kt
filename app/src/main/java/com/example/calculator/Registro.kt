@@ -34,7 +34,6 @@ class Registro : AppCompatActivity() {
         iniciarComponentes()
 
     }
-
     private fun iniciarComponentes() {
 
         var bundle: Bundle? = this.intent.extras
@@ -100,13 +99,14 @@ class Registro : AppCompatActivity() {
         Operaciones.listaEstudiantesStatic.add(est)
     }
 
+
     private fun devolverResultados() {
         var miIntent: Intent = Intent()
         miIntent.putExtra("resultado", "Registro exitoso")
+        Toast.makeText(this, "Registro Exitoso", Toast.LENGTH_SHORT).show()
         var miBundle: Bundle = Bundle()
         miBundle.putSerializable("objetoOperaciones", operaciones)
         miIntent.putExtras(miBundle)
-        //miIntent.putExtra("obj",operaciones)
         setResult(RESULT_OK, miIntent)
     }
 

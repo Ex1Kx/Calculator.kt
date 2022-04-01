@@ -3,11 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ekigo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_ayuda.xml" value="0.125" />
+        <entry key="..\:/Users/ekigo/AndroidStudioProjects/Calculator/app/src/main/res/layout-land/activity_ayuda.xml" value="0.25" />
+        <entry key="..\:/Users/ekigo/AndroidStudioProjects/Calculator/app/src/main/res/layout-land/activity_estadisticas.xml" value="0.21" />
+        <entry key="..\:/Users/ekigo/AndroidStudioProjects/Calculator/app/src/main/res/layout-land/activity_lista_estudiantes_simple.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/ekigo/AndroidStudioProjects/Calculator/app/src/main/res/layout-land/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/ekigo/AndroidStudioProjects/Calculator/app/src/main/res/layout-land/activity_registro.xml" value="0.22" />
+        <entry key="..\:/Users/ekigo/AndroidStudioProjects/Calculator/app/src/main/res/layout-land/item_list.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/ekigo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_ayuda.xml" value="0.2" />
+        <entry key="..\:/Users/ekigo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_estadisticas.xml" value="0.22" />
         <entry key="..\:/Users/ekigo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_lista_estudiantes_simple.xml" value="0.2" />
         <entry key="..\:/Users/ekigo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/ekigo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_registro.xml" value="0.22" />
-        <entry key="..\:/Users/ekigo/AndroidStudioProjects/Calculator/app/src/main/res/layout/item_list.xml" value="0.25" />
+        <entry key="..\:/Users/ekigo/AndroidStudioProjects/Calculator/app/src/main/res/layout/item_list.xml" value="0.33" />
       </map>
     </option>
   </component>
