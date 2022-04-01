@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Calculator</string>
+    <string name="txttitle1">Ayuda</string>
+    <string name="txttextayuda">Al iniciar la aplicacion, saldra un seccion con botones, los cuales son: </string>
+    <string name="txttextayuda2">En esta seccion se podra hacer el registro de los estudiantes. Desplegara un formulario para ingresar los respectivos datos. </string>
+    <string name="txttextayuda3">En esta sección se llevaran las respectivas  estadisticas del sistema.</string>
+    <string name="txttextayuda4">En esta sección se mostraran los estudiantes registrados dentro del sistema.</string>
+
+
+    <string name="titleEstadistics">En esta sección se mostraran los estudiantes registrados dentro del sistema.</string>
+
+    <string name="title_Estadistics">Estadisticas</string>
+
+    /*Text By Lista Estudiantes*/
+    <string name="titleActivity">Lista Estudiantes</string>
+
+
+
+    /*Text By Activity Estadisticas*/
+    <string name="estudiantesGanadores">Estudiantes Ganadores:</string>
+    <string name="estudiantesPerdieron">Estudiantes Que Perdieron:</string>
+    <string name="estudiantesProcesados">Estudiantes Procesados:</string>
+    <string name="estudiantesRecuperacion">Estudiantes Que Recuperacion:</string>
+
+
+    /*Dessarrollado por*/
+    <string name="develop">Develop by</string>
+    <string name="developName">Sus nombres</string>
+
 </resources>

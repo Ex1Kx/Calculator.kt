@@ -3,6 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Calculator.kt-Ex/app/src/main/res/drawable/splahs_screen.xml" value="0.2115" />
+        <entry key="..\:/Calculator.kt-Ex/app/src/main/res/layout-land/activity_ayuda.xml" value="0.13498920086393087" />
+        <entry key="..\:/Calculator.kt-Ex/app/src/main/res/layout-land/activity_estadisticas.xml" value="0.33" />
+        <entry key="..\:/Calculator.kt-Ex/app/src/main/res/layout-land/activity_lista_estudiantes_simple.xml" value="0.1728395061728395" />
+        <entry key="..\:/Calculator.kt-Ex/app/src/main/res/layout-land/item_list.xml" value="0.33" />
+        <entry key="..\:/Calculator.kt-Ex/app/src/main/res/layout/activity_ayuda.xml" value="0.20416666666666666" />
+        <entry key="..\:/Calculator.kt-Ex/app/src/main/res/layout/activity_estadisticas.xml" value="0.33" />
+        <entry key="..\:/Calculator.kt-Ex/app/src/main/res/layout/activity_lista_estudiantes_simple.xml" value="0.20416666666666666" />
+        <entry key="..\:/Calculator.kt-Ex/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Calculator.kt-Ex/app/src/main/res/layout/activity_registro.xml" value="0.20416666666666666" />
+        <entry key="..\:/Calculator.kt-Ex/app/src/main/res/layout/item_list.xml" value="0.5" />
+        <entry key="..\:/Calculator.kt-Ex/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2115" />
         <entry key="..\:/Users/ekigo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_ayuda.xml" value="0.125" />
         <entry key="..\:/Users/ekigo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_lista_estudiantes_simple.xml" value="0.2" />
         <entry key="..\:/Users/ekigo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_main.xml" value="0.22" />
